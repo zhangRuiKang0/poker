@@ -1,0 +1,84 @@
+ /* .animation{
+ 	width: 100px;
+ 	height: 100px;
+ 	background: red;
+ }
+ .zidan{
+ 	position: absolute;
+ 	left:10px;
+ 	height: 300px;
+ 	border: 1px solid black;
+ 	border-radius: 50%;
+ }  */
+ body{
+position: absolute;
+top:0;right: 0;bottom: 0;left: 0;
+
+ 	background-image: url(img/poker.jpg);
+ 	background-size: cover;
+ }
+ .zhuozi{
+ 	width: 690px;
+ 	height: 580px;
+ 	position: relative; 	
+ 	margin-left: 45%;
+ 	margin-top: 2%;
+ 	border-radius: 10px;
+ }
+ .pai{
+ 	width: 90px;
+ 	height: 120px;
+ 	position: absolute;
+ 	left: 300px;
+ 	top: 0;
+ 	background-size: 100% 100%;
+ 	opacity: 0;
+ 	cursor: pointer;
+ }
+ .chulie{
+ 	box-shadow: 0 0 0 3px red;
+ }
+ .anniu-left,.anniu-right{
+ 	width: 100px;
+ 	height: 30px;
+ 	position: absolute;
+ 	left:50%;
+ 	margin-left: -50px;
+ 	border-radius: 15px;
+ 	text-align: center;
+ 	line-height: 30px;
+ 	font-size: 20px;
+ 	color: white;
+ 	cursor: pointer;
+ 	opacity: 0;
+ }
+ .anniu-left{
+ 	background: red;
+ 	bottom: 80px;
+ }
+ .anniu-right{
+ 	background: red;
+ 	bottom: 20px;
+ }
+ .kaishi{
+ 	width: 200px;
+ 	height: 60px;
+ 	position: absolute;
+ 	left:0;
+ 	right:0;
+ 	top:0;
+ 	bottom:0;
+ 	margin: auto;
+ 	border-radius: 10px;
+ 	border-top-left-radius: 50px;
+ 	border-bottom-right-radius: 50px;
+ 	text-align: center;
+ 	line-height: 60px;
+ 	font-size: 40px;
+ 	color: white;
+ 	cursor: pointer;
+ 	background: red;
+ }
+ .anniu-left:hover,.anniu-right:hover,.kaishi:hover{
+ 	background: rgba(13,198,234,0.7);
+ }
